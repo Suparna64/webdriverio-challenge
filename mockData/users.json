@@ -1,0 +1,23 @@
+{
+    "minRequiredFieldsUser": {
+        "firstName": "dave",
+        "username": "sirdavesmith",
+        "role": "Sales Team",
+        "cellphone": "8017538223"
+    },
+    "editedMinRequiredFieldsUser": {
+        "firstName": "edited",
+        "username": "sirdavesmith",
+        "role": "Customer"
+    },
+    "allFieldsUser": {
+        "firstName": "jerry",
+        "username": "jdoyle",
+        "role": "Sales Team",
+        "cellphone": "8011234567",
+        "lastName": "doyle",
+        "password": "asdf1234",
+        "customer": "Company AAA",
+        "email": "jdoyle@gmail.com"
+    }
+}

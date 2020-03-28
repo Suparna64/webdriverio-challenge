@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio-challenge",
+  "version": "1.0.0",
+  "description": "Lightweight WebdriverIo demo framework leveraging page objects, environments, and data driven testing",
+  "scripts": {
+    "test": "ENV=local ./node_modules/.bin/wdio ./wdio.conf.js",
+    "test-dev": "ENV=dev ./node_modules/.bin/wdio ./wdio.conf.js",
+    "test-qe": "ENV=qe ./node_modules/.bin/wdio ./wdio.conf.js",
+    "test-stage": "ENV=stage ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Dave Smith - @sirdavesmith",
+  "license": "MIT",
+  "dependencies": {
+    "@wdio/cli": "^5.22.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.22.3",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.20.1",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "shortid": "^2.2.15",
+    "webdriverio": "^5.22.3"
+  }
+}
